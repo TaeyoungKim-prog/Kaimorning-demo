@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "975246301928",
+    "project_id": "kaimorning-b6cbc",
+    "storage_bucket": "kaimorning-b6cbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975246301928:android:0115ba2b332e393cb8075d",
+        "android_client_info": {
+          "package_name": "com.example.demo_kai_morning_210303"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975246301928-2nngq430q9qf6o5oh2rd0ih468dpn4as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJCTmG2Pv9TVPbkMxu1QiLKFLUrg0QOeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975246301928-2nngq430q9qf6o5oh2rd0ih468dpn4as.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

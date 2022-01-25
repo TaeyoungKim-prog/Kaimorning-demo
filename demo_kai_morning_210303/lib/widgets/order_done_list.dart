@@ -7,7 +7,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class OrderDoneList extends StatefulWidget {
-
   final DateTime selDay;
   final String selTime;
 
@@ -18,7 +17,6 @@ class OrderDoneList extends StatefulWidget {
 }
 
 class _OrderDoneListState extends State<OrderDoneList> {
-
 
   @override
   Widget build(BuildContext context) {

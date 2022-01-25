@@ -87,9 +87,9 @@ class _HomePageState extends State<HomePage> {
                                 Padding(
                                   padding: const EdgeInsets.all(5.0),
                                   child: Text(
-                                    '카이모닝',
+                                    '런치 Lunchy',
                                     style: TextStyle(
-                                        fontSize: 30.0,
+                                        fontSize: 26.0,
                                         fontWeight: FontWeight.bold),
                                   ),
                                 ),
@@ -153,7 +153,7 @@ class _HomePageState extends State<HomePage> {
                             setState(() {});
                           },
                       ),
-                      Text("${_selDay}"),
+                      Text("선택날짜: ${_selDay.year}-${_selDay.month}-${_selDay.day}"),
                       Container(
                         color: Colors.white,
                         child: Row(
@@ -280,7 +280,7 @@ class _HomePageState extends State<HomePage> {
                                           ),
                                           child: Padding(
                                             padding: const EdgeInsets.all(4.0),
-                                            child: Center(child: Text(_selTime)),
+                                            child: Center(child: Text("픽업")),
                                     )),
                               ),
                             ),
